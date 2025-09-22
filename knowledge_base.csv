@@ -1,0 +1,13 @@
+question,answer
+What is this chatbot?,This is a retrieval-based AI chatbot that answers questions using a small knowledge base and NLP preprocessing.
+How do I run the chatbot?,"Activate your Python virtual environment, install requirements, then run `python chatbot.py` for CLI or `streamlit run streamlit_app.py` for the web UI."
+Which NLP libraries are used?,"This project uses spaCy and NLTK for preprocessing, and scikit-learn (TF-IDF) for retrieval."
+How can I add more questions?,"Open `knowledge_base.csv` and add new rows. Each row should have `question,answer`."
+What is tokenization?,Tokenization is splitting text into words (tokens). It's a basic text preprocessing step.
+What is lemmatization?,"Lemmatization reduces words to their dictionary form (lemma), e.g., 'running' -> 'run'. It helps match similar words."
+Why use TF-IDF?,TF-IDF helps weight words by importance and is commonly used to build vector representations for retrieval tasks.
+How to improve accuracy?,"Add more examples to the KB, use embeddings (sentence-transformers), or add fallback logic and contextual history."
+What's the difference between NLTK and spaCy?,NLTK is a large toolbox for teaching and experiments; spaCy is optimized for production with fast tokenization and efficient pipelines.
+How to download spaCy model?,Run `python -m spacy download en_core_web_sm` after installing spaCy.
+How do I install NLTK data?,Run python and execute `import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')`.
+What if the chatbot doesn't know an answer?,The chatbot will return the best match from the KB and suggest adding the question to the KB if not found.
