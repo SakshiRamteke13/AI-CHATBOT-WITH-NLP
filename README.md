@@ -38,7 +38,7 @@ The chatbot works as follows:
 If scikit-learn is not available, a token-overlap fallback method is used.
 
 Output
+[demo_run.txt](https://github.com/user-attachments/files/22476498/demo_run.txt)
 
-
-
+Conclusion
 This project demonstrates how a basic AI chatbot can be built using NLP techniques. It highlights the importance of text preprocessing and similarity-based retrieval. The chatbot can be extended by adding more data to the knowledge base, improving retrieval with embeddings, or integrating advanced conversational AI models for generative responses.
